@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Css</title>
+
+    <style>
+       /* h2{
+            color: black;
+        }
+        !*Type selection*!
+        #My-Project{
+            background-color: aqua
+        }
+        .my-class {
+           background-color: red;
+        }*/
+
+       /*Universe selector*/
+      /* *{
+           color: deepskyblue;
+       }*/
+     /*  [href="https://IJSE.com"]{
+           color: gold;
+       }*/
+       /*check The start with https*/
+       /*[href^="https"]{
+           font-weight: bold;
+           background: deepskyblue;
+       }*/
+
+      /* !*end with .com*!
+       [href$=".com"]{
+           color: red;
+       }*/
+
+
+       /*!*color ijse any where*!
+       [href*="IJSE"]{
+           color: brown;
+       }
+       */
+
+    /*   [href~="ijse"]{
+           background: greenyellow;
+       }
+!*PSEUDO class selector*!
+       h1:hover{
+           color: red;
+       }
+       h1:active{
+           color:green;
+
+       }*/
+       input:hover{
+           background: red;
+       }
+       /*input:focus{
+           background: red;
+       }*/
+
+      /* li:first-child{
+           color: red;
+           background: yellow;
+       }
+       li:last-child{
+           color: red;
+           background: lawngreen;
+       }*/
+     /*  li:nth-child(odd){
+           color: aqua;
+           background: black;
+       }*/
+      /* li:nth-child(even){
+           color: aqua;
+           background: black;
+       }*/
+      /* li:nth-child(n+4){
+           color: aqua;
+           background: black;
+           !*yatama 4 color wenw*!
+       }*/
+      /* li:nth-child(3n+1){
+           color: aqua;
+           background: black;
+           !*deken deka color wenw*!
+       }*/
+      /* li:nth-child(3n-1){
+           color: aqua;
+           background: black;
+           !*2 , 5 letter 7n above deka krnw*!
+       }*/
+      /* li:nth-child(4n){
+           color: aqua;
+           background: black;
+           !*4 weni ek color wenw*!
+       }*/
+
+       h2::before{
+           content:"Sri Lanka ";
+
+       }
+       h2:hover::before{
+background: red;
+       }
+         h2::after{
+           content:".....";
+       }
+         p::first-line{
+             color: lawngreen;
+         }
+         input::placeholder{
+             color: black;
+             background: white;
+         }
+         input[type="file"]::file-selector-button{
+             background: lawngreen;
+         }
+         p::selection{
+             color: yellow;
+         }
+         li::marker{
+             content:">";
+         }
+
+    </style>
+</head>
+<body>
+<!--class Selector
+    <h1 id="My-Project">My Project</h1>
+
+    <p class="my-class">
+      My Name is vishan Chathuranga I am 21 year old.
+    </p>
+
+    <div class="my-class">
+        My Name is vishan Chathuranga I am 21 year old.
+    </div>
+
+<a href="https:// ijse .com">IJSE 1 ijse institue of ijse</a>
+<br>
+<a href="http://IJSE">IJSE 2</a>
+<br>
+<a href="http://Hiru.com">hiru</a>
+<br>
+<a href="http://abc.com">abc </a>-->
+<ul>
+    <li>A</li>
+    <li>B</li>
+    <li>C</li>
+    <li>D</li>
+    <li>E</li>
+    <li>F</li>
+    <li>G</li>
+</ul>
+
+<h2>IJSE-Institue of software engineering</h2>
+<p>sbdfdsbjfbdjsbfjdbsfjbd bsdjbvbvc vdvsdbjhvhvihsdusavfdhbfdbf
+fdvfvafafuafbdufdfasf
+afyfabfvffudufdu vu dbfudfbudbfudf
+dufbudfdfbdc xz cn hd dbfbdfnjdfhdbfhdgfjgdnvdhvfjkasdsahfd lfbd
+dvbdbjdsbfsdf
+dsfdbfbsdfdsdsf
+dfbdsbfubdsfdfdfsd
+dhfhdfnjdbbv ds bdbfdhfudfdsfd
+hudbfudsbfudufbdbufdvvjdvjnfjdnfjndjfjdbfd fnfds fdsf hsdf
+dsfjdbfjsjfdsfbbjbfjdbfjsbdfjd
+sdfbdfjdbfsjdfbjdsv jvjdbsjfbjdsfjd vjdjnfjdsfjdsds
+hdsfjdjsj</p>
+<h3 class="h301"> H3 01</h3>
+<h3>H3 02</h3>
+<h3 class="h301" name="hello">H3 03</h3>
+<h3 class="h301" name="ijse.lk">H3 43</h3>
+<!--
+<a href="https://Sirasa.lk">Sirasa Tv</a> <br>
+<a href="https://Hiru.lk">Hiru Tv</a> <br>
+<a href="https://Supreme.lk">Supreme Tv</a> <br>-->
+ <input type="text" placeholder="Your Name">
+<input type="file" placeholder="choose">
+
+</body>
+</html>
